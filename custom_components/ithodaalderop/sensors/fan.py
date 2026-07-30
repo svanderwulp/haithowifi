@@ -203,8 +203,13 @@ class IthoSensorFan(IthoBaseSensor):
 
                 _description = "Unknown status"
                 if str(value).isnumeric():
-                    if self._attr_device_info["model"] in [NONCVE_DEVICES["hru_eco_250"], NONCVE_DEVICES["hru_eco_300"]]:
-                        _description = HRU_ECO_250_300_STATUS.get(int(value), _description)
+                    if self._attr_device_info["model"] in [
+                        NONCVE_DEVICES["hru_eco_250"],
+                        NONCVE_DEVICES["hru_eco_300"],
+                    ]:
+                        _description = HRU_ECO_250_300_STATUS.get(
+                            int(value), _description
+                        )
                     else:
                         _description = HRU_ECO_STATUS.get(int(value), _description)
                 value = _description

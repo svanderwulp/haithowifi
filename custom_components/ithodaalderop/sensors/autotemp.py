@@ -179,7 +179,7 @@ class IthoSensorAutotempRoom(IthoBaseSensor):
             },
             manufacturer=MANUFACTURER,
             model=f"{ADDON_TYPES[config_entry.data[CONF_ADDON_TYPE]]} Spider",
-            name=name
+            name=name,
         )
 
         super().__init__(description, config_entry, use_base_sensor_device=False)

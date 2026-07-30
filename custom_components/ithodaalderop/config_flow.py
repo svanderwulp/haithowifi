@@ -135,7 +135,6 @@ class IthoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     async def async_step_rooms(self, user_input: Mapping[str, Any] | None = None):
         """Configure rooms for autotemp."""
         if user_input is not None:
-
             for key, value in user_input.items():
                 user_input[key] = value.replace(" ", "_")
             self.config.update(user_input)

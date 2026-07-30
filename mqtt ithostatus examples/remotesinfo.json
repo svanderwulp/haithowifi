@@ -1,0 +1,16 @@
+{
+    "Living Room": {
+        "timestamp": 1785405489,
+        "lastcmd": 0,
+        "lastcmdmsg": "IthoUnknown",
+        "co2": 627
+    },
+    "Bathroom": {
+        "timestamp": 1785405706,
+        "lastcmd": 0,
+        "lastcmdmsg": "IthoUnknown",
+        "temp": 27.1,
+        "hum": 52,
+        "dewpoint": 16.5
+    }
+}

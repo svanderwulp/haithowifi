@@ -42,7 +42,7 @@ def get_mqtt_state_topic(config: dict[str, Any]) -> str:
 
 def get_mqtt_remote_topic(config: dict[str, Any]) -> str:
     """Get the MQTT remote topic."""
-    return f"{get_mqtt_base_topic(config)}/{MQTT_STATETOPIC["remote"]}"
+    return f"{get_mqtt_base_topic(config)}/{MQTT_STATETOPIC['remote']}"
 
 
 def get_device_model(config: dict[str, Any]) -> str:
@@ -63,7 +63,7 @@ def get_device_name(config: dict[str, Any]) -> str:
 
 def get_default_entity_prefix(config: dict[str, Any]) -> str:
     """Get the default entity prefix."""
-    return f"itho_{ADDON_TYPES[config[CONF_ADDON_TYPE]]}".replace("-","_").lower()
+    return f"itho_{ADDON_TYPES[config[CONF_ADDON_TYPE]]}".replace("-", "_").lower()
 
 
 def get_entity_prefix(config: dict[str, Any]) -> str:
