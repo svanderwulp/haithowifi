@@ -1044,7 +1044,19 @@
         "name": "Remaining Override Timer"
       },
       "remote": {
-        "name": "Remote - {remote_name}"
+        "name": "Remote - {remote_name} CO2"
+      },
+      "remote_temperature": {
+        "name": "Remote - {remote_name} temperature"
+      },
+      "remote_humidity": {
+        "name": "Remote - {remote_name} humidity"
+      },
+      "remote_dew_point": {
+        "name": "Remote - {remote_name} dew point"
+      },
+      "remote_battery": {
+        "name": "Remote - {remote_name} battery"
       },
       "requested_fanspeed": {
         "name": "Requested Fan Speed"

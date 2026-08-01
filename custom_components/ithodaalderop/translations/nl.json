@@ -1044,7 +1044,19 @@
         "name": "Resterende Override Timer"
       },
       "remote": {
-        "name": "Afstandsbediening - {remote_name}"
+        "name": "Afstandsbediening - {remote_name} CO2"
+      },
+      "remote_temperature": {
+        "name": "Afstandsbediening - {remote_name} temperatuur"
+      },
+      "remote_humidity": {
+        "name": "Afstandsbediening - {remote_name} luchtvochtigheid"
+      },
+      "remote_dew_point": {
+        "name": "Afstandsbediening - {remote_name} dauwpunt"
+      },
+      "remote_battery": {
+        "name": "Afstandsbediening - {remote_name} batterij"
       },
       "requested_fanspeed": {
         "name": "Gevraagde Ventilatorsnelheid"

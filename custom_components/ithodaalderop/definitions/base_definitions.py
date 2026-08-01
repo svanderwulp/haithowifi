@@ -50,6 +50,7 @@ class IthoSensorEntityDescription(SensorEntityDescription):
     """Sensor entity description for Itho."""
 
     json_field: str | None = None
+    value_field: str | None = None
     topic: str | None = None
     unique_id_template: str | None = None
     room: str | None = None
